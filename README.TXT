@@ -14,3 +14,14 @@ Released 20220102
 Made in C using Raylib https://www.raylib.com/
 Music is 'Related Memories' by edZeS & Auricom
 Just decompress to an empty folder and run "xmasdemo2021.exe"
+
+Oh, you want to compile instead? You need git and CMake.
+Try this:
+
+$ git clone https://github.com/idaho06/xmasdemo2021.git
+$ cd xmasdemo2021
+$ mkdir build
+$ cd build
+$ cmake .. -DCMAKE_BUILD_TYPE=Debug
+$ cmake --build . 
+
