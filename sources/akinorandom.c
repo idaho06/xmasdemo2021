@@ -9,3 +9,4 @@ float akinorandom(const float max) {
 	return (float)doubleRandom;
 	// return float((double)rand() / (double)((float)RAND_MAX / max));
 }
+

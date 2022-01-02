@@ -34,3 +34,4 @@ void DrawStars(Vector3 stars[]) {
 		DrawPixelV((Vector2) { stars[i].x, stars[i].y }, colorStar);
 	}
 }
+
